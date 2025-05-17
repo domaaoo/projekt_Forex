@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 # Konfiguracja Kafki
 KAFKA_BROKER = "localhost:9092" # Użyj adresu swojego brokera Kafki
-KAFKA_TOPIC = "eurusd_tick_data"
+KAFKA_TOPIC = "eurusd"
 CONSUMER_GROUP_ID = "eurusd_ohlc_consumer_group"
 
 # Globalne przechowalnie dla OHLC
