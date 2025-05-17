@@ -6,7 +6,7 @@ from kafka import KafkaProducer
 
 # Konfiguracja Kafki
 KAFKA_BROKER = "localhost:9092"  # Użyj adresu swojego brokera Kafki
-KAFKA_TOPIC = "eurusd_tick_data"
+KAFKA_TOPIC = "eurusd"
 INPUT_CSV_FILE = "EURUSD.csv"  # Upewnij się, że ten plik jest w tym samym katalogu
 
 def parse_timestamp(ts_str):
